@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kymjs.crash">
+
+    <application>
+        <activity
+            android:name="com.kymjs.crash.activity.DefaultErrorActivity"
+            android:process=":error_activity"
+            android:theme="@style/CustomActivityOnCrashTheme"/>
+    </application>
+
+</manifest>
